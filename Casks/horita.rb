@@ -8,7 +8,7 @@ cask "horita" do
   homepage "https://horita.app"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Horita.app"
 
